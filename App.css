@@ -1,0 +1,145 @@
+.background {
+  background-image: url('https://st2.depositphotos.com/1158615/7243/v/450/depositphotos_72434631-stock-illustration-animal-footprints-pattern.jpg');
+  background-size: 400px;
+  position: relative;
+}
+
+.background::before {
+  position: absolute;
+  content: '';
+  width: 100%;
+  height: 100%;
+  background: rgba(255, 255, 255, 0.959); 
+}
+
+.navOptions {
+  padding-left: 5%;
+  font-size: 13px;
+  cursor: pointer;
+  color: rgb(255, 103, 129);
+}
+
+.banner {
+  height: 60vh;
+  padding: 2%;
+  background-image: url('https://moggycatfood.com/wp-content/uploads/2023/04/WhatsApp-Image-2023-04-11-at-1.21.38-PM.jpeg');
+  background-size: cover; 
+  background-position: center;
+  color: white;
+}
+
+.inputToSearch {
+  margin-left: 50vh;
+  margin-top: 6vh;
+  position: absolute;
+}
+
+.addService {
+  font-size: small;
+  margin-top: 30vh;
+}
+
+.container {
+  width: 160vh;
+  margin-left: 30vh;
+  margin-top: 10vh;
+  position: relative;
+}
+
+.product {
+  margin-bottom: 10px;
+  padding: 10px;
+  border: 0.1px solid rgba(253, 129, 150, 0.925);
+  border-radius: 4px;
+  background-color: white;
+  color: rgb(255, 103, 129);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 13px;
+}
+
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal-content {
+  background: linear-gradient(to right, rgb(252, 99, 124), rgb(199, 68, 160), rgb(196, 45, 183));
+  padding: 20px;
+  border-radius: 8px;
+  width: 160vh;
+  color: white;
+}
+
+.infos{
+  display: flex;
+  justify-content: space-between;
+}
+
+.icons{
+  height: 20px;
+  width: 20px;
+  cursor: pointer;
+}
+
+.buttons {
+  margin-left: 130vh;
+}
+
+header {
+  height: 130px;
+}
+
+input {
+  border-radius: 10px;
+  border: 0.1px solid rgba(253, 129, 150, 0.925);
+  width: 350px;
+  height: 20px;
+  text-align: center;
+  margin-right: 5px;
+  color: rgb(255, 103, 129);
+}
+
+input::placeholder {
+  color: rgb(255, 103, 129);
+}
+
+input:focus {
+  border-color: rgb(255, 56, 89);
+  outline: none; 
+  box-shadow: 0 0 5px rgb(255, 58, 91);
+}
+
+.addServiceOpenModal {
+  color: rgb(253, 136, 156);
+  cursor: pointer;
+  font-weight: 700;
+  text-decoration: underline;
+}
+
+button {
+  position: relative;
+  margin: 4vh 4vh 0 0;
+  background-color: rgba(253, 129, 150, 0.925);
+  border-radius: 5px;
+  border: 0.1px solid rgba(253, 129, 150, 0.925);
+  width: 115px;
+  height: 40px;
+  font-size: 13px;
+  cursor: pointer;
+  color: white;
+}
+
+hr {
+  border: none;
+  height: 0.1px; 
+  background-color: rgba(253, 129, 150, 0.925);
+}
