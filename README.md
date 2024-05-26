@@ -62,7 +62,3 @@ Pesquisando serviços/produtos:
 5. Inicie a aplicação:
    ```sh
    npm start
-
-
-
-
