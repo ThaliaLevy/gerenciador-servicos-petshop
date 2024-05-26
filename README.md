@@ -4,24 +4,6 @@ Este trabalho consiste na criação de um aplicativo web em React para gerenciar
 aplicativo permite que os usuários cadastrem novos serviços, consultem a lista de serviços existentes, 
 editem as informações de serviços cadastrados e excluam serviços da lista.
 
-## Instalação e inicialização
-
-1. Clone o repositório:
-   ```sh
-   https://github.com/ThaliaLevy/gerenciador-servicos-petshop.git
-
-2. Navegue até o diretório do projeto:
-   ```sh
-   cd gerenciador-servicos-petshop
-
-4. Instale as dependências:
-   ```sh
-   npm install
-   
-5. Inicie a aplicação:
-   ```sh
-   npm start
-
 ## O projeto
 Tela inicial:
 ![image](https://github.com/ThaliaLevy/projeto/assets/69092295/d2a68840-ec0f-40c9-8c1e-4ee0f7b938fd)
@@ -63,7 +45,23 @@ Pesquisando serviços/produtos:
    2. A lista exibida será atualizada, mostrando somente os resultados que contém o termo buscado:
       ![image](https://github.com/ThaliaLevy/projeto/assets/69092295/41c168d8-a75e-43ea-ae61-22e09cf315b1)
 
+## Instalação e inicialização
 
+1. Clone o repositório:
+   ```sh
+   https://github.com/ThaliaLevy/gerenciador-servicos-petshop.git
+
+2. Navegue até o diretório do projeto:
+   ```sh
+   cd gerenciador-servicos-petshop
+
+4. Instale as dependências:
+   ```sh
+   npm install
+   
+5. Inicie a aplicação:
+   ```sh
+   npm start
 
 
 
