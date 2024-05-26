@@ -8,11 +8,11 @@ editem as informações de serviços cadastrados e excluam serviços da lista.
 
 1. Clone o repositório:
    ```sh
-   git clone https://github.com/seu-usuario/nome-do-projeto.git
+   https://github.com/ThaliaLevy/gerenciador-servicos-petshop.git
 
 2. Navegue até o diretório do projeto:
    ```sh
-   cd nome-do-projeto
+   cd gerenciador-servicos-petshop
 
 4. Instale as dependências:
    ```sh
