@@ -1,70 +1,70 @@
-# Getting Started with Create React App
+# Gerenciador de serviços Pet Shop
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Este trabalho consiste na criação de um aplicativo web em React para gerenciar uma lista de serviços. O 
+aplicativo permite que os usuários cadastrem novos serviços, consultem a lista de serviços existentes, 
+editem as informações de serviços cadastrados e excluam serviços da lista.
 
-## Available Scripts
+## Instalação e inicialização
 
-In the project directory, you can run:
+1. Clone o repositório:
+   ```sh
+   git clone https://github.com/seu-usuario/nome-do-projeto.git
 
-### `npm start`
+2. Navegue até o diretório do projeto:
+   ```sh
+   cd nome-do-projeto
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+4. Instale as dependências:
+   ```sh
+   npm install
+   
+5. Inicie a aplicação:
+   ```sh
+   npm start
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## O projeto
+Tela inicial:
+![image](https://github.com/ThaliaLevy/projeto/assets/69092295/d2a68840-ec0f-40c9-8c1e-4ee0f7b938fd)
 
-### `npm test`
+Exibição de serviços/produtos:
+![image](https://github.com/ThaliaLevy/projeto/assets/69092295/84cb2c82-6c35-4b89-97a8-46d155bad74a)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Adicionando serviço/produto:
+   1. Clique em Adicionar serviço
+      ![image](https://github.com/ThaliaLevy/projeto/assets/69092295/cc66d293-e3ca-442d-93b6-683fc322bd0b)
+   2. Será exibido o modal de formulário:
+      ![image](https://github.com/ThaliaLevy/projeto/assets/69092295/c179bb05-287a-465f-9a6d-53051625aa79)
+   3. Insira as informações do novo serviço/produto:
+      ![image](https://github.com/ThaliaLevy/projeto/assets/69092295/c75873c2-55c3-49f5-b23b-7cc1a4d945df)
+   4. Clique em salvar:
+      ![image](https://github.com/ThaliaLevy/projeto/assets/69092295/3ce8c5a4-4471-436d-ac28-b350ba1b048a)
+   5. Novo serviço/produto adicionado:
+      ![image](https://github.com/ThaliaLevy/projeto/assets/69092295/1e65b025-e676-4bd0-bc51-2f0878768010)
 
-### `npm run build`
+Editando serviço/produto:
+   1. Clique no ícone de edição no serviço que deseja editar:
+      ![image](https://github.com/ThaliaLevy/projeto/assets/69092295/c5ed1409-6bf1-4171-b496-441b7474e99c)
+   2. Será aberto o modal com as informações existentes para o serviço:
+      ![image](https://github.com/ThaliaLevy/projeto/assets/69092295/1f6ad9fd-cc65-4b53-84a3-7771ae3e7980)
+   3. Edite as informações desejadas:
+      ![image](https://github.com/ThaliaLevy/projeto/assets/69092295/cec8c8f8-cec8-4c6a-bb23-1f6785950e5f)
+   4. Após salvar, os valores serão alterados:
+      ![image](https://github.com/ThaliaLevy/projeto/assets/69092295/e99bf898-d4b8-4446-a6dc-9898391902c5)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Excluindo serviço/produto:
+   1. Clique no ícone de exclusão no serviço que deseja excluir:
+      ![image](https://github.com/ThaliaLevy/projeto/assets/69092295/c1925aed-a94c-45a1-ad15-e425b1e00b7f)
+   2. A tela será renderizada sem o serviço:
+      ![image](https://github.com/ThaliaLevy/projeto/assets/69092295/2b7b543f-ab64-4cd3-b8c7-72dc65ad6e05)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Pesquisando serviços/produtos:
+   1. Insira a palavra que deseja buscar (obs.: a palavra deve ser completa e estar no nome ou descrição do serviço) e em seguida clique no ícone de lupa:
+      ![image](https://github.com/ThaliaLevy/projeto/assets/69092295/8a5a7c1d-94a6-4d21-a969-581212d8c966)
+   2. A lista exibida será atualizada, mostrando somente os resultados que contém o termo buscado:
+      ![image](https://github.com/ThaliaLevy/projeto/assets/69092295/41c168d8-a75e-43ea-ae61-22e09cf315b1)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
